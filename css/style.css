@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 :root {
@@ -41,13 +42,15 @@ body{
     --light-royal-blue: rgb(86 98 173);
     --violet-blue: rgba(111, 86, 232, 1);
     --persian-blue: rgba(110, 128, 232, 0);
+    --bg-gradient-blue: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    --bg-gradient-light-blue: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   
     /* Neutral Colors */
     --white: rgba(255, 255, 255, 1);
     --pale-blue: rgba(224, 239, 255, 1);
     --light-lavender: rgba(232, 226, 255, 1);
     --dark-gray-blue: rgba(45, 57, 84, 1);
-    --dark-light-gray: rgb(166 172 185);
+    --dark-light-gray: rgb(172 177 189);
     --black: rgb(0,0,0)
   }
 
@@ -130,10 +133,10 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 40px;
+    /* justify-content: space-between; */
+    padding: 25px;
     border-radius: 20px;
-    background-color: var(--violet-blue);
+    background: var(--bg-gradient-blue);
 }
 
 
@@ -147,7 +150,7 @@ main{
     font-size: 70px;
     text-align: center;
     font-weight: bold;
-    background-color: var(--light-royal-blue);
+    background: var(--bg-gradient-light-blue);
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -165,10 +168,12 @@ main{
     text-align: center;
     font-weight: bold;
     color: var(--white);
+    padding: 0 60px;
 }
 
 .main-section .main-title h3{
     font-size: 30px;
+    margin: 20px 0px;
 }
 
 .main-section .main-title .description{
