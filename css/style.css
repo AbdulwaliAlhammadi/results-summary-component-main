@@ -207,7 +207,8 @@ main {
   .main-section {
     width: calc(100% - 50px);
     padding-top: 0px;
-    margin-top: -20px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
   }
 
   .result {
@@ -219,10 +220,6 @@ main {
   }
   .main-section .main-title h3 {
     margin-bottom: 5px;
-  }
-
-  .secondary-title {
-    padding-top: 20px;
   }
 
   .summary-section .link {
