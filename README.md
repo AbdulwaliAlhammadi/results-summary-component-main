@@ -26,9 +26,9 @@ Users should be able to:
 - See hover and focus states the button element on the page
 
 ### Screenshot
-
+- Desktop Preview
 ![Desktop preview](./screenshots/Results-summary-component-desktop-preview.png)
-
+- Mobile Preview
 ![Mobile preview](./screenshots/Results-summary-component-mobile-preview.png)
 
 ### Links
