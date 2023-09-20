@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-# Desktop Preview
+#### Desktop Preview
 
 ![Desktop preview](./screenshots/Results-summary-component-desktop-preview.png)
 
-# Mobile Preview
+#### Mobile Preview
 
 ![Mobile preview](./screenshots/Results-summary-component-mobile-preview.png)
 
